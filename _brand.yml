@@ -1,0 +1,30 @@
+color:
+  palette:
+    grey: "#E5E5E5"
+    dark-grey: "#222222"
+    date-grey: "#6E6E73"
+    white: "#FFFFFF"
+    off-white: "#FEFEFA"
+    white-smoke: "#F5F5F5"
+    link-blue: "#0166CC"
+    sandstone: "#EAE5DD"
+  foreground: dark-grey
+  background: white
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+      weight: [300, 400, 500]
+      style: normal
+    - family: Space Mono
+      source: google
+  base: 
+    family: Roboto
+    weight: 400
+  headings: 
+    family: Roboto
+    color: dark-grey
+    weight: 500
+  monospace: Space Mono
+
+
