@@ -33,9 +33,12 @@ copula-operational-risk/
 ```
 
 ## Key Findings
-> 1. Diversifying across operational loss categories, rather than summing standalone 99.9% risk measures, reduces the capital estimate by 29.5% (VaR) and 33.8% (Expected Shortfall).
-> 2. That benefit is strikingly insensitive to the choice of copula family — a roughly one-percentage-point spread across five candidates — because only one of five categories carries any modeled dependence at all. Most of the benefit comes from summing independent risks, not from the specific dependence model chosen.
-> 3. A goodness-of-fit cross-check found a better-fitting extreme-value (Tawn) copula outside the five tested families, and one candidate (Clayton) converged to an implausible parameter sign. Both are reported transparently as scope-bounded limitations rather than smoothed over.
+
+1. Diversifying across operational loss categories, rather than summing standalone 99.9% risk measures, reduces the capital estimate by 29.5% (VaR) and 33.8% (Expected Shortfall).
+
+2. That benefit is strikingly insensitive to the choice of copula family — a roughly one-percentage-point spread across five candidates — because only one of five categories carries any modeled dependence at all. Most of the benefit comes from summing independent risks, not from the specific dependence model chosen.
+
+3. A goodness-of-fit cross-check found a better-fitting extreme-value (Tawn) copula outside the five tested families, and one candidate (Clayton) converged to an implausible parameter sign. Both are reported transparently as scope-bounded limitations rather than smoothed over.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
